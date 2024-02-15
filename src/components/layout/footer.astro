@@ -23,46 +23,19 @@ const { className } = Astro.props;
       >
 
       <p class="text-center text-sm leading-loose md:text-left balance-text">
-        Built by{" "}
-        <a
-          href={siteConfig.links.twitter}
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          mickasmt
-        </a>
-         . Based on{" "}
-        <a
-          href="https://github.com/shadcn-ui/taxonomy"
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          shadcn-ui/taxonomy
-        </a>
-         . Hosted on{" "}
-        <a
-          href="https://vercel.com"
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          Vercel
-        </a>
-         . The source code is available on{" "}
-        <a
-          href={siteConfig.links.github}
-          target="_blank"
-          rel="noreferrer"
-          class="font-medium underline underline-offset-4"
-        >
-          GitHub
-        </a>
-         .
+        Built by jdavidson018.
       </p>
+      The source code is available on{" "}
+      <a
+        href={siteConfig.links.github}
+        target="_blank"
+        rel="noreferrer"
+        class="font-medium underline underline-offset-4"
+      >
+        GitHub.
+      </a>
     </div>
-
-    <ThemeToggle client:idle />
   </div>
+
+  <ThemeToggle client:idle />
 </footer>

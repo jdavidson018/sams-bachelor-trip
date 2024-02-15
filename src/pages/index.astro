@@ -6,35 +6,23 @@ import { cn } from "@/lib/utils";
 import Icon from "astro-icon";
 ---
 
-<MainLayout title="Astronomy">
+<MainLayout title="Sam's Last Stand">
   <section class="space-y-6 pb-12 pt-16 lg:py-28">
     <div
       class="container flex max-w-[64rem] flex-col items-center gap-5 text-center"
     >
-      <a
-        href="https://twitter.com/miickasmt"
-        class={cn(buttonVariants({ variant: "outline", size: "sm" }))}
-        target="_blank"
-      >
-        Follow along on <Icon name="twitter" class="ml-2 size-4" />
-      </a>
-
       <h1
         class="font-heading text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl !leading-[1.1] text-balance"
       >
-        A modern example app built using
-        <span class="text-gradient_indigo-purple">
-          Astro v4 <span class="font-sans font-bold">+</span> shadcn<span
-            class="font-sans font-bold">/</span
-          >ui.
-        </span>
+        <span class="text-gradient_indigo-purple"> Sam's Last Stand:</span>
+        A New Orleans Bachelor Bash
       </h1>
 
       <p
         class="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-balance"
       >
-        I&apos;m building a modern example app with Astro v4 and based on
-        shadcn-ui/taxonomy.
+        The man himself is tying the knot, and we're going to send him off in
+        style. Join us for a weekend of revelry in the Big Easy.
       </p>
 
       <div class="flex justify-center space-x-2 md:space-x-4">
@@ -43,15 +31,6 @@ import Icon from "astro-icon";
           class={cn(buttonVariants({ size: "lg" }))}
         >
           Get Started
-        </a>
-        <a
-          href={siteConfig.links.github}
-          target="_blank"
-          rel="noreferrer"
-          class={cn(buttonVariants({ variant: "outline", size: "lg" }), "px-4")}
-        >
-          <Icon name="github" class="mr-2 size-5" />
-           Github
         </a>
       </div>
     </div>
@@ -65,14 +44,15 @@ import Icon from "astro-icon";
       class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center"
     >
       <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-        Features
+        Rundown
       </h2>
       <p
         class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text"
       >
-        This project is a replication of Taxonomy using Astro v4 and shadcn/ui.
-        Some features, such as authentication, subscriptions and API routes,
-        have not been implemented yet.
+        Warning: For those of you who are not familiar with the Davidson
+        families high function alcoholism, be warned... this is not a weekend
+        for the faint of heart. We will be drinking, we will be gambling, and we
+        will be eating like kings.{" "}
       </p>
     </div>
     <div
@@ -94,9 +74,9 @@ import Icon from "astro-icon";
           </svg>
 
           <div class="space-y-2">
-            <h3 class="font-bold">Astro v4</h3>
+            <h3 class="font-bold">The Venue</h3>
             <p class="text-sm text-muted-foreground">
-              Layouts, Image, View Transitions and more.
+              This once in a lifetime event will be held in the heart of Nola.
             </p>
           </div>
         </div>
@@ -109,9 +89,10 @@ import Icon from "astro-icon";
             ></path>
           </svg>
           <div class="space-y-2">
-            <h3 class="font-bold">React 18</h3>
+            <h3 class="font-bold">The Menu</h3>
             <p class="text-sm text-muted-foreground">
-              Play with React components & config. Use hook.
+              Eat what you like, but you can bet we'll be hitting up the best
+              bottemless brunches in the city.
             </p>
           </div>
         </div>
@@ -124,9 +105,9 @@ import Icon from "astro-icon";
             ></path>
           </svg>
           <div class="space-y-2">
-            <h3 class="font-bold">Database</h3>
+            <h3 class="font-bold">The Booze</h3>
             <p class="text-sm text-muted-foreground">
-              <b>Not sure yet</b>. Using Prisma/PlanetScale or CMS.
+              This weekend is proudly sponsored by Hurricans and Hand Grenates.
             </p>
           </div>
         </div>
@@ -158,10 +139,10 @@ import Icon from "astro-icon";
               stroke-width="16"></line></svg
           >
           <div class="space-y-2">
-            <h3 class="font-bold">Shadcn/ui</h3>
+            <h3 class="font-bold">The Views</h3>
             <p class="text-sm text-muted-foreground mt-3">
-              UI components built using <b>shadcn/ui</b>. (Radix UI and Tailwind
-              CSS)
+              From the French Quarter to the Garden District, we'll be taking in
+              the sites and sounds of the city.
             </p>
           </div>
         </div>
@@ -178,9 +159,11 @@ import Icon from "astro-icon";
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
           </svg>
           <div class="space-y-2">
-            <h3 class="font-bold">Authentication</h3>
+            <h3 class="font-bold">The Festivities</h3>
             <p class="text-sm text-muted-foreground">
-              <b>Not sure yet</b>. Authentication using Auth.js (astro-auth).
+              Your host has a few surprises up his sleeve. Be sure to bring a
+              plain white t-shirt and a sharpie... the gang is going to beat the
+              bog.
             </p>
           </div>
         </div>
@@ -193,47 +176,13 @@ import Icon from "astro-icon";
             ></path>
           </svg>
           <div class="space-y-2">
-            <h3 class="font-bold">Subscriptions</h3>
+            <h3 class="font-bold">The Date</h3>
             <p class="text-sm text-muted-foreground">
-              <b>Not sure yet</b>. Free and paid subscriptions using Stripe.
+              Thursday, September 12th - Sunday, September 15th
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="mx-auto text-center md:max-w-[58rem]">
-      <p
-        class="leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text"
-      >
-        Astronomy also includes a blog and a full-featured documentation site
-        built using Markdown and MDX from Astro.
-      </p>
-    </div>
-  </section>
-  <section id="open-source" class="container py-8 md:py-12 lg:py-28">
-    <div
-      class="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center"
-    >
-      <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-        Proudly Open Source
-      </h2>
-      <p
-        class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
-      >
-        Astronomy is open source and powered by open source software. <br />{
-          " "
-        }
-         The code is available on{" "}
-        <a
-          href={siteConfig.links.github}
-          target="_blank"
-          rel="noreferrer"
-          class="underline underline-offset-4"
-        >
-          GitHub
-        </a>
-         .
-      </p>
     </div>
   </section>
 </MainLayout>

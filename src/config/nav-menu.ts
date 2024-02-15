@@ -70,12 +70,12 @@ export const navMenuConfig: NavMenuConfig = {
   ],
   links: [
     {
-      title: "FAQ",
-      href: "/faq",
+      title: "Details",
+      href: "/docs/getting-started",
     },
     {
-      title: "About",
-      href: "/about",
+      title: "FAQ",
+      href: "/faq",
     },
   ],
 };
