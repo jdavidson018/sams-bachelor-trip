@@ -72,10 +72,6 @@ export const navMenuConfig: NavMenuConfig = {
     {
       title: "Details",
       href: "/docs/getting-started",
-    },
-    {
-      title: "FAQ",
-      href: "/faq",
-    },
+    }
   ],
 };
