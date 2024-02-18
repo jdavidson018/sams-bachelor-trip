@@ -13,43 +13,129 @@ export const docsConfig: DocsConfig = {
   ],
   sidebarNav: [
     {
-      title: "Getting Started",
+      title: "Itinerary",
       items: [
         {
-          title: "Introduction",
+          title: "Date Options",
+          href: "/docs/itinerary/dates/",
+        },
+        {
+          title: "Airbnb/Hotel Options",
+          href: "/docs/getting-started/",
+        },
+        {
+          title: "Bars",
+          href: "/docs/getting-started/",
+        },
+        {
+          title: "Restaurants",
+          href: "/docs/getting-started/",
+        },
+        {
+          title: "Activities",
           href: "/docs/getting-started/",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Bios",
       items: [
         {
           title: "Introduction",
-          href: "/docs/documentation",
+          href: "/docs/bios/introduction",
         },
         {
-          title: "Contentlayer",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "The Man Himself",
+          href: "/docs/bios/the-man-himself",
         },
         {
-          title: "Components",
-          href: "/docs/documentation/components",
+          title: "Aaron Cronican",
+          href: "/docs/bios/cronican",
         },
         {
-          title: "Code Blocks",
-          href: "/docs/documentation/code-blocks",
+          title: "Adam DeVries",
+          href: "/docs/bios/devries",
         },
         {
-          title: "Style Guide",
-          href: "/docs/documentation/style-guide",
+          title: "Brendan Obarr",
+          href: "/docs/bios/obarr",
         },
         {
-          title: "Search",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Carson Post",
+          href: "/docs/bios/post",
         },
+        {
+          title: "Chris McCann",
+          href: "/docs/bios/mccann",
+        },
+        {
+          title: "Darren Ashton",
+          href: "/docs/bios/ashton",
+        },
+        {
+          title: "Drew Ormseth",
+          href: "/docs/bios/ormseth",
+        },
+        {
+          title: "Grant Starkey",
+          href: "/docs/bios/gstarkey",
+        },
+        {
+          title: "Jack Davidson",
+          href: "/docs/bios/jdavidson",
+        },
+        {
+          title: "Jack Gallagher",
+          href: "/docs/bios/gallagher",
+        },
+        {
+          title: "Jaren Thompson",
+          href: "/docs/bios/thompson",
+        },
+        {
+          title: "Kendall Post",
+          href: "/docs/bios/post",
+        },
+        {
+          title: "Landon Arnold",
+          href: "/docs/bios/arnold",
+        },
+        {
+          title: "Logan Reitz",
+          href: "/docs/bios/reitz",
+        },
+        {
+          title: "Luke Davidson",
+          href: "/docs/bios/ldavidson",
+        },
+        {
+          title: "Max Solow",
+          href: "/docs/bios/solow",
+        },
+        {
+          title: "Mike Davidson",
+          href: "/docs/bios/mdavidson",
+        },
+        {
+          title: "Nick Lambert",
+          href: "/docs/bios/lambert",
+        },
+        {
+          title: "Patrick Albright",
+          href: "/docs/bios/albright",
+        },
+        {
+          title: "Ryan Baber",
+          href: "/docs/bios/baber",
+        },
+        {
+          title: "Safwan Elkhatib",
+          href: "/docs/bios/elkhatib",
+        },
+        {
+          title: "Wade Starkey",
+          href: "/docs/bios/wstarkey",
+        }
       ],
     },
     {
