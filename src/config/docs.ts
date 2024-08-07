@@ -6,21 +6,30 @@ export const docsConfig: DocsConfig = {
       title: "Documentation",
       href: "/docs/getting-started/",
     },
-    {
-      title: "Guides",
-      href: "/guides",
-    },
   ],
   sidebarNav: [
+    {
+      title: "Guide to the Journey",
+      items: [
+        {
+          title: "Welcome",
+          href: "/docs/getting-started/",
+        },
+      ]
+    },
     {
       title: "Itinerary",
       items: [
         {
           title: "Date Options",
-          href: "/docs/itinerary/dates/",
+          href: "/docs/itinerary/dates",
         },
         {
-          title: "Lodging Options",
+          title: "Flights",
+          href: "/docs/itinerary/flights",
+        },
+        {
+          title: "Lodging",
           href: "/docs/itinerary/lodging",
         },
         {
@@ -41,107 +50,107 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
-    // {
-    //   title: "Bios",
-    //   items: [
-    //     {
-    //       title: "Introduction",
-    //       href: "/docs/bios/introduction",
-    //     },
-    //     {
-    //       title: "The Man Himself",
-    //       href: "/docs/bios/the-man-himself",
-    //     },
-    //     {
-    //       title: "Aaron Cronican",
-    //       href: "/docs/bios/cronican",
-    //     },
-    //     {
-    //       title: "Adam DeVries",
-    //       href: "/docs/bios/devries",
-    //     },
-    //     {
-    //       title: "Brendan Obarr",
-    //       href: "/docs/bios/obarr",
-    //     },
-    //     {
-    //       title: "Carson Post",
-    //       href: "/docs/bios/cpost",
-    //     },
-    //     {
-    //       title: "Chris McCann",
-    //       href: "/docs/bios/mccann",
-    //     },
-    //     {
-    //       title: "Darren Ashton",
-    //       href: "/docs/bios/ashton",
-    //     },
-    //     {
-    //       title: "Drew Ormseth",
-    //       href: "/docs/bios/ormseth",
-    //     },
-    //     {
-    //       title: "Grant Starkey",
-    //       href: "/docs/bios/gstarkey",
-    //     },
-    //     {
-    //       title: "Jack Davidson",
-    //       href: "/docs/bios/jdavidson",
-    //     },
-    //     {
-    //       title: "Jack Gallagher",
-    //       href: "/docs/bios/gallagher",
-    //     },
-    //     {
-    //       title: "Jaren Thompson",
-    //       href: "/docs/bios/thompson",
-    //     },
-    //     {
-    //       title: "Kendall Post",
-    //       href: "/docs/bios/kpost",
-    //     },
-    //     {
-    //       title: "Landon Arnold",
-    //       href: "/docs/bios/arnold",
-    //     },
-    //     {
-    //       title: "Logan Reitz",
-    //       href: "/docs/bios/reitz",
-    //     },
-    //     {
-    //       title: "Luke Davidson",
-    //       href: "/docs/bios/ldavidson",
-    //     },
-    //     {
-    //       title: "Max Solow",
-    //       href: "/docs/bios/solow",
-    //     },
-    //     {
-    //       title: "Mike Davidson",
-    //       href: "/docs/bios/mdavidson",
-    //     },
-    //     {
-    //       title: "Nick Lambert",
-    //       href: "/docs/bios/lambert",
-    //     },
-    //     {
-    //       title: "Patrick Albright",
-    //       href: "/docs/bios/albright",
-    //     },
-    //     {
-    //       title: "Ryan Baber",
-    //       href: "/docs/bios/baber",
-    //     },
-    //     {
-    //       title: "Safwan Elkhatib",
-    //       href: "/docs/bios/elkhatib",
-    //     },
-    //     {
-    //       title: "Wade Starkey",
-    //       href: "/docs/bios/wstarkey",
-    //     }
-    //   ],
-    // },
+    {
+      title: "Bios",
+      items: [
+        {
+          title: "Introduction",
+          href: "/docs/bios/introduction",
+        },
+        {
+          title: "The Man Himself",
+          href: "/docs/bios/the-man-himself",
+        },
+        {
+          title: "Aaron Cronican",
+          href: "/docs/bios/cronican",
+        },
+        {
+          title: "Adam DeVries",
+          href: "/docs/bios/devries",
+        },
+        {
+          title: "Brendan Obarr",
+          href: "/docs/bios/obarr",
+        },
+        {
+          title: "Carson Post",
+          href: "/docs/bios/cpost",
+        },
+        {
+          title: "Chris McCann",
+          href: "/docs/bios/mccann",
+        },
+        {
+          title: "Darren Ashton",
+          href: "/docs/bios/ashton",
+        },
+        {
+          title: "Drew Ormseth",
+          href: "/docs/bios/ormseth",
+        },
+        {
+          title: "Grant Starkey",
+          href: "/docs/bios/gstarkey",
+        },
+        {
+          title: "Jack Davidson",
+          href: "/docs/bios/jdavidson",
+        },
+        {
+          title: "Jack Gallagher",
+          href: "/docs/bios/gallagher",
+        },
+        {
+          title: "Jaren Thompson",
+          href: "/docs/bios/thompson",
+        },
+        {
+          title: "Kendall Post",
+          href: "/docs/bios/kpost",
+        },
+        {
+          title: "Landon Arnold",
+          href: "/docs/bios/arnold",
+        },
+        {
+          title: "Logan Reitz",
+          href: "/docs/bios/reitz",
+        },
+        {
+          title: "Luke Davidson",
+          href: "/docs/bios/ldavidson",
+        },
+        {
+          title: "Max Solow",
+          href: "/docs/bios/solow",
+        },
+        {
+          title: "Mike Davidson",
+          href: "/docs/bios/mdavidson",
+        },
+        {
+          title: "Nick Lambert",
+          href: "/docs/bios/lambert",
+        },
+        {
+          title: "Patrick Albright",
+          href: "/docs/bios/albright",
+        },
+        {
+          title: "Ryan Baber",
+          href: "/docs/bios/baber",
+        },
+        {
+          title: "Safwan Elkhatib",
+          href: "/docs/bios/elkhatib",
+        },
+        {
+          title: "Wade Starkey",
+          href: "/docs/bios/wstarkey",
+        }
+      ],
+    },
     // {
     //   title: "Blog",
     //   items: [
