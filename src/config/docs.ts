@@ -33,6 +33,10 @@ export const docsConfig: DocsConfig = {
           href: "/docs/itinerary/lodging",
         },
         {
+          title: "Timeline",
+          href: "/docs/itinerary/timeline",
+        },
+        {
           title: "Bars",
           href: "/docs/itinerary/bars",
         },
